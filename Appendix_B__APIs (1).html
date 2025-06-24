@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appendix B - APIs</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { max-width: 900px; margin: auto; padding: 40px; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 40px; }
+        h2, h3, h4 { color: #002b45; }
+        ul { padding-left: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+        table, th, td { border: 1px solid #ccc; }
+        th, td { padding: 10px; text-align: left; }
+        em { color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+<h2>Appendix B – APIs</h2>
+<p><strong>What Are APIs?</strong></p>
+<p>API stands for Application Programming Interface. It acts as a digital bridge that lets different software systems talk to each other. It is like a waiter at a restaurant: you (the app or business) place an order, and the API takes it to the kitchen (the backend system), then brings the result back to you.</p>
+<p>APIs expose specific functions of a system to outside users or apps without revealing how everything works behind the scenes.</p>
+
+<p><strong>How APIs Are Used in RapidPay</strong></p>
+<p>RapidPay is a fintech infrastructure platform, so APIs are the backbone of its B2B offering and even some parts of B2C. Here is how they are used:</p>
+
+<ul>
+    <li><strong>Wallet Management API:</strong> Create wallets for users, load value during top-up windows, view wallet balance and decay over time.</li>
+    <li><strong>Decay Engine API:</strong> Endpoints to calculate and apply time-based value decay, spend velocity rewards or penalties.</li>
+    <li><strong>Transaction & Payment API:</strong> Spending RapidPay credits at partner stores, logging purchases and applying merchant fees, triggering deal unlocks or reward tiers.</li>
+    <li><strong>Analytics & Behavior API:</strong> Provides data for partners (user spend times, drop-off points, effectiveness of deals or decay rates).</li>
+    <li><strong>Security & Access Control API:</strong> Ensures only verified businesses can access wallet features; users must be authenticated to act on their accounts.</li>
+</ul>
+
+<p><strong>Why APIs Matter for RapidPay</strong></p>
+<ul>
+    <li><strong>Scalability:</strong> APIs let RapidPay plug into many businesses at once without building custom systems each time.</li>
+    <li><strong>Speed to Market:</strong> Businesses can adopt the platform quickly via simple API integrations.</li>
+    <li><strong>Flexibility:</strong> APIs let RapidPay serve marketplaces, retailers, banks, or fintechs with different front ends.</li>
+    <li><strong>Revenue Generation:</strong> API usage (calls per month) can be monetized as a tiered RPS service.</li>
+</ul>
+
+    </div>
+</body>
+</html>
